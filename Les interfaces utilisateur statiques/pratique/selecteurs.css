@@ -1,0 +1,22 @@
+p#i1{
+    color:blue
+}
+p.c1{
+    color: green
+}
+div h1{
+    background-color: yellow
+}
+
+h1{
+    background-color: red
+}
+
+/* Voisin direct, on utilise +*/
+div+p{
+    background-color: lightblue
+}
+/* Voisins généraux, on utilise ~*/
+div~p{
+    background-color: lightblue
+}

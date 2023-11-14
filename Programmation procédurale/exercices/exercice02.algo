@@ -1,0 +1,18 @@
+Algorithme Calculator;
+
+Variables radius,perimeter,surface;
+
+Contantes pi = 3.14;
+
+Debut
+
+Ecrire("Please enter the radius if your cercle : ");
+lire(radius);
+
+perimeter < radius*2*pi;
+surface < radius*radius*pi;
+
+Ecrire("The perimeter is : ",perimeter);
+Ecrire("The surface is : ",surface);
+
+Fin

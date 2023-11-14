@@ -1,0 +1,19 @@
+Algorithme converteur;
+
+Variables x,y,fx,cy : rèel;
+
+Début
+
+Ecrire("Entrez la degrée en Celsius que vous souhaitez de converter en Fahrenheit : ");
+Lire(x);
+fx < x*9/5+32
+
+
+Ecrire("Entrez la degrée en Faherheit que vous souhaitez de converter en Celsius : ");
+Lire(y);
+cy < (y-32)*9/5;
+
+Ecrire("La degrée en Fahernheit est : ",fx);
+Ecrire("La degrée en Celsius    est : ",cy);
+
+Fin

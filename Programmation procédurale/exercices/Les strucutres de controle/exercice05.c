@@ -11,11 +11,14 @@ int main()
     if (t<0){
         printf("Erreur.\n");
     }
-    else {if ((t<=15)&& (t >0)){
-        montant = 5;
-    }
-    else if (t!=0){
-         montant = 5 + (((t-15)*15)/20);
-    }   
-    printf("Le montant est : %f DA.\n",montant);}
+    else {  
+            if ((t<=15)&& (t >0)){
+                montant = 5;
+            }
+            else if (t!=0){
+                montant = 5 + (((t-15)*15)/20);
+            }   
+            printf("Le montant est : %f DA.\n",montant);
+            
+            }
 }

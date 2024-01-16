@@ -1,0 +1,21 @@
+#p1{
+    border-width: 12px;
+    border-color: red;
+    border-style: solid;
+    border-top-width: 20px;
+    border-bottom-width: 50px;
+    border-bottom-color: gray;
+    border-top-color: yellow;
+}
+#p2{
+    border: 12px double blue;
+    border-radius: 20px;
+}
+
+div{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    border: 2px red solid;
+    overflow: scroll;
+}

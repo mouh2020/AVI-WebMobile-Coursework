@@ -19,6 +19,9 @@ int main() {
                 pro_neg*=last_num;
             }
             else {
+                if (pro_neg==1){
+                    pro_neg=0;
+                }
                 printf("Somme : %d\nProduit : %d\n",som_pos,pro_neg);
             }
             }

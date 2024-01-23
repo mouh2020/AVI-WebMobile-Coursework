@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n,counter;
+    int i,n,counter;
     counter = 1;
     printf("Veuillez entrer un nombre : ");
     scanf("%d",&n);
@@ -13,7 +13,7 @@ int main()
     }
     else
     {
-        for (int i=n;i>=1;i--)
+        for (i=n;i>=1;i--)
         {
             counter=counter*i;
         }

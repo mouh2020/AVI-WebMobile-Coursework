@@ -3,7 +3,7 @@
 
 int main()
 {
-    int a,counter;
+    int i,a,counter;
     counter = 0 ;
     printf("Veuillez saisir un nombre : ");
     scanf("%d",&a);
@@ -14,7 +14,7 @@ int main()
 
     else 
     {
-        for (int i=1;i<=a;i++)
+        for ( i=1;i<=a;i++)
         {
             counter=counter+i;
         

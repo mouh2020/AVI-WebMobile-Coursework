@@ -1,6 +1,6 @@
-package Java.les_variables;
+package S2.java.les_variables;
 
-public class Affichage {
+public class Variables {
     public static void main(String[] args) {
         byte a = 64;
         short b = 360 ;

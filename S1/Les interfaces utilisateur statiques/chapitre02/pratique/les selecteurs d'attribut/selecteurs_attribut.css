@@ -1,0 +1,32 @@
+[id]{
+    background-color: yellow
+}
+
+[id="dernier"]{
+    background-color: pink
+}
+
+[id~="titre"]{
+    background-color: aqua
+}
+
+#dernier_p:hover{
+    background-color: olivedrab;
+    font-size: 15px
+}
+
+#dernier_p:active{
+    color: red
+}
+
+h2::before{
+    content: "C'est la section ";
+    font-display: 2px;
+    color: blue
+}
+
+h2::after{
+    content: " et MOBILE";
+    font-display: 2px;
+    color: red
+}

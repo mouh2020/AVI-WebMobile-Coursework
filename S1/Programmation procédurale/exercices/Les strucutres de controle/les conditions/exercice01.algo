@@ -1,0 +1,16 @@
+Algorithme nombre_type;
+
+Variables a : entier;
+
+Début
+
+Ecrire("Veuillez entrer un nombre : ");
+Lire(a);
+
+Si (a = 0) Alors Ecrire("Votre nombre est nul")
+
+Sinon Si (a > 0) Alors Ecrire("Vore nombre est positif");
+
+Sinon Si (a < 0) Alors Ecrire("Votre nombre est negatif");
+
+Fin;

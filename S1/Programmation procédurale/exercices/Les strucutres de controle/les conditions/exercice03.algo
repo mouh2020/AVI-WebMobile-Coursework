@@ -1,0 +1,24 @@
+Algorithme equation2groupe;
+
+Variables a,b,c,x1,x2,delta : réel;
+
+Début 
+Ecrire("Nous allons résoudre une equation du 2éme ax²+bx+c=0");
+Ecrire("Veuillez introduire a,b,c les coéfficients associés à l'équation);
+Lire(a,b,c)
+
+Si (a=0) Alors Ecrire("Votre equation est 1er degrée);
+
+Sinon Debut
+      delta < b*b-4*a*c ;
+      Si (delta<0) Alors Ecrire("Votre equation n'a pas de solution ds |R");
+      Sinon si (delta=0) Alors Début
+                                Ecrire("Solution double");
+                                x1<-b(2*a);
+                                x2<x1;
+                              Fin
+      Sinon Debut
+            Ecrire("Deux solutions distinctes.)
+            x1<(-b+sqrt(delta))/(2*a);;
+            x2<(-b-sqrt(delta))/(2*a);
+            Ecrire("x1=",x1,"x2=",x2);

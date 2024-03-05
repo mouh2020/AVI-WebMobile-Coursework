@@ -1,0 +1,18 @@
+algorithme calcule_categorie_age
+
+Variable age:entier;
+
+Debut
+
+Ecrire("Veuillez saisir votre age SVP);
+Lire(age);
+
+Si (age >= 1 et age <=5) Alors Ecrire("Maternelle);
+Sinon Si (age >= 6 et age <=7) Alors Ecrire("Poussin");
+Sinon Si (age >= 8 et age <=9) Alors Ecrire("Papille");
+Sinon Si (age >= 10 et age <=11) Alors Ecrire("Minime");
+Sinon Si (age >=12) Alors Ecrire("Cadet");
+Sinon Ecrire("Error veuillez saisir une valeur correcte);
+
+Fin;
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device,initial-scale=1">
+    <title>Les formulaires</title>
+</head>
+<body>
+    <form>
+        <fieldset align="center">
+            <legend>Informations personnelles</legend>
+            <label for="last_name" allign="center">Nom</label>
+            <br>
+            <input type="text" name="last_name" id="last_name" placeholder="Tapez Ici Votre Nom" required="on"></input>
+            <br>
+            <br>
+            <label for="first_name">Prenom</label>
+            <br>
+            <input type="text" name="first_name" id="first_name" placeholder="Tapez Ici Votre Prenom" allign="left" ></input>
+            <br>
+            <br>    
+            <label for="bearth_date">Date de naissance</label>
+            <br>
+            <input type="date" name="bearth_date" id="bearth_date" checked></input>
+            <br>
+            <br>    
+            <label for="sex">Genre</label>
+            <br>  
+            <input type="radio" name="sex" id="sex" checked>Homme</input>
+            <input type="radio" name="sex" id="sex" checked>Femme</input>
+            <br>
+            <br>
+            <label for="photo">Insérer votre photo</label>
+            <input type="file"></input>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset align="center">
+            <legend>Informations de compte</legend>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Tapez Ici Votre Email" allign="left" required="on"></input>
+            <br>
+            <br>
+            <label for="password">Mot de passe </label>
+            <input type="password" name="password" id="password" placeholder="Tapez Ici Votre Mode De Passe" required="on" pattern="[A-Z]{1}"></input>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset align="center">
+            <legend>Informations supplimentaitres</legend>
+            <label for="language">Les langages</label>
+            <select id ="language" name="language">
+                <optgroup label="High Level">
+                    <option>JAVA</option>
+                    <option>PYTHON</option>
+                    <option selected="0">JAVASCRIPT</option>
+                </optgroup>
+                <optgroup label="Low Level">
+                    <option>C++</option>
+                    <option>Assembly</option>
+                    <option selected="0">C</option>
+                </optgroup>               
+            </select>
+            <br>
+            <br>
+            <label for="comment">Write a comment</label></br>
+            <textarea name="ct" id="ct" cols="50" rows="10"></textarea>
+            <br>
+            <br>
+        </fieldset align="center">
+        <fieldset align="center">
+            <input type="submit" value="Envoyer"></input>
+            <input type="reset"  value="Annuler"></input>
+        </fieldset align="center">
+
+    </form>
+    </form>
+    
+</body>
+</html>

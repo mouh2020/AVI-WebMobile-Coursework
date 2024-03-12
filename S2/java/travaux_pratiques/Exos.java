@@ -26,7 +26,7 @@ public class Exos {
         int nombre = 5, diviseur=2;
 
         System.out.println("Le quotien de la division est : " + (nombre/diviseur) + "\n" +
-                           "Le reste de la diision est : " + (nombre%diviseur) + "\n\n");
+                           "Le reste de la division est : " + (nombre%diviseur) + "\n\n");
 
         // Exo3 avec Scanner
 
@@ -42,7 +42,7 @@ public class Exos {
         div = scanner.nextInt();
 
         System.out.println("\nLe quotien de la division est : " + (nbr/div) + "\n" +
-                           "Le reste de la diision est : " + (nbr%div) + "\n\n");
+                           "Le reste de la division est : " + (nbr%div) + "\n\n");
         scanner.close();
 
     }

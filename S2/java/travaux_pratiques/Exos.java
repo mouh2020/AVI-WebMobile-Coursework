@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Exos {
 
     public static void main(String[] args) {
-        // Exo01
+        /*Exo01
 
         int a = 15;
         int b = 17;
@@ -43,7 +43,22 @@ public class Exos {
 
         System.out.println("\nLe quotien de la division est : " + (nbr/div) + "\n" +
                            "Le reste de la division est : " + (nbr%div) + "\n\n");
-        scanner.close();
+        scanner.close();*/
+
+        // Exo5
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Veuillez saisir un nombre : ");
+        float a = scanner.nextFloat();
+        System.out.print("Veuillez saisir un autre nombre : ");
+        float b = scanner.nextFloat();
+        if (a>b) {
+            System.out.println( a + " est le nombre superieur");
+        }
+        else {
+            System.out.println( b + " est le nombre superieur");
+        }
 
     }
     

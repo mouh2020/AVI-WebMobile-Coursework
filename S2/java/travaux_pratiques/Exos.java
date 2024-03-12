@@ -49,9 +49,8 @@ public class Exos {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Veuillez saisir un nombre : ");
+        System.out.print("Veuillez saisir deux nombres : ");
         float a = scanner.nextFloat();
-        System.out.print("Veuillez saisir un autre nombre : ");
         float b = scanner.nextFloat();
         if (a>b) {
             System.out.println( a + " est le nombre superieur");

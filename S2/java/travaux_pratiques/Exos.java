@@ -60,13 +60,118 @@ public class Exos {
             System.out.println( b + " est le nombre superieur");
         }
         */
+        /* 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Veuillez saisir un nombre : ");
         float a = scanner.nextInt();
         if (a%2 == 0) System.out.println("Le nombre est pair");
         else System.out.println("Le nombre est impair");
+        */
 
+
+
+        
+        // les boucles
+
+        /*
+        
+      int note = 10;
+       
+       switch (note) {
+       case 0:
+         System.out.println("faible");
+         break;
+      
+       case 10:
+         System.out.println("Bien");
+         break;
+         
+       case 20:
+         System.out.println("Tre bien");
+       break;
+       
+       default:
+         System.out.println("Sysntex error");
+  
+    }
+        */
+
+        /*
+        
+    int month = 11;
+     
+     switch (month) {
+     case 12,1,2:
+       System.out.println("Hiver");
+       break;
+    
+     case 3,4,5:
+       System.out.println("printemps");
+       break;
+       
+     case 6,7,8:
+       System.out.println("ete");
+     break;
+     
+     case 9,10,11:
+       System.out.println("autoumne");
+       break;
+     
+     default:
+       System.out.println("Sysntex error");
+
+  }
+        */
+
+        /*
+            
+        Scanner scanner = new Scanner(System.in);
+            int num1;
+    
+            System.out.print("Entrer un nombre 1 : ");
+    
+            num1 = scanner.nextInt();
+            
+            scanner.close();
+            
+            
+            if (num1 % 2 == 0)
+               System.out.println("le nombre  "+ num1+ " est un nombre pair");
+              else 
+                System.out.println("le nombre "+ num1+ " est un nombre impair"); 
+        */
+
+        /*
+            for (int i = 1; i <= 10; i++)
+                {
+                System.out.println("Voici la ligne "+i);
+                }
+        */
+
+        /*
+            int i =1;
+                
+                do 
+                {  
+                  System.out.println("Voici la ligne "+i);
+                  i++;
+                  }while (i <= 5);
+            
+              }
+        */
+
+        /*
+            
+            int i =1;
+            
+            while (i <= 5)
+            {  
+              System.out.println("Voici la ligne "+i);
+              i++;
+              }
+          }
+        */
     }
     
 }

@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class Exos {
 
     public static void main(String[] args) {
-        /*
-        Exo01
+        
+        /*Exo01
 
         int a = 15;
         int b = 17;
-        System.out.println("\nLa valeur de a : " + a + "\n"+
-                         "La valeur de b : " + b + "\n");
-
+        System.out.println("La valeur de a : " + a +
+                         "\nLa valeur de b : " + b );
+        
         // Exo2
 
         int c;
@@ -21,7 +21,8 @@ public class Exos {
 
         System.out.println("La valeur de a : " + a + "\n"+
                          "La valeur de b : " + b + "\n\n");
-
+                         
+        */
         // Exo3
 
         int nombre = 5, diviseur=2;

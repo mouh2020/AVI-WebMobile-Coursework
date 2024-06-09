@@ -5,47 +5,91 @@
 
     </head>
     <body>
+        <p id ="a"> Choose the color red or blue. </p>
+        <button onclick="changeColor('blue')">Blue</button>
+        <button onclick="changeColor('red')">Red</button>
+        <p> Toutes les <span class="m"> <b>machines </b> </span> peuvent remplir un rôle de serveur ou de            client. Dans le second cas, seules certaines <span class="m"><b>machines</b></span> font office de serveurs. </p>
+        <button onclick="nombre_mots();"> Trouver </button>
         <script language = "JavaScript">
-            // 01
-            var x = 5 ,
-                y = 7 ;
+            function changeColor(color){
+                var element = document.getElementById('a');
+                element.style.color = color;}
 
-            document.write("Le resultat de multiplication : " + x*y + "</br>")
+            function nombre_mots()     {
+                var T = document.getElementsByClassName("m");
+                var n = T.length;
+                alert ("Le mot 'machines' existe " + n + ' fois dans le paragraphe')     } 
+            
+            // // 01
+            // var x = 5 ,
+            //     y = 7 ;
 
-            // 02
-            var x = 5,
-                triple = x*3;
-            document.write("Le triple de " + x + " est : " + triple +"</br>")
+            // document.write("Le resultat de multiplication : " + x*y + "</br>")
 
-            // 03
-            var x = 5.4,
-                y = 6.7,
-                c;
-            document.write("Avant de permutation : x = "+x+" y = "+y)
-            c = x;
-            x = y;
-            y = c;
-            document.write("</br>Aprés permutation : x = " + x + " y = "+y)
+            // // 02
+            // var x = 5,
+            //     triple = x*3;
+            // document.write("Le triple de " + x + " est : " + triple +"</br>")
 
-            // 04
-            var x  = 25;
-            document.write("</br>La racine carée de "+x+" est : " + Math.sqrt(x))
+            // // 03
+            // var x = 5.4,
+            //     y = 6.7,
+            //     c;
+            // document.write("Avant de permutation : x = "+x+" y = "+y)
+            // c = x;
+            // x = y;
+            // y = c;
+            // document.write("</br>Aprés permutation : x = " + x + " y = "+y)
 
-            // 05
-            var x = 4,
-                y = 3,
-                moyenne = (x+y)/2;
+            // // 04
+            // var x  = 25;
+            // document.write("</br>La racine carée de "+x+" est : " + Math.sqrt(x))
 
-            document.write("</br>La moyenne de " + x + " et " + y + " est : " + moyenne)
+            // // 05
+            // var x = 4,
+            //     y = 3,
+            //     moyenne = (x+y)/2;
 
-            // 06 
-            var x = 7,
-                y = 8,
-                moyenne = (x+y)/2;
-                document.write("</br>La partie entière de la moyenne de " + x + " et " + y + " est : " + Math.trunc(moyenne))
+            // document.write("</br>La moyenne de " + x + " et " + y + " est : " + moyenne)
 
+            // // 06 
+            // var x = 7,
+            //     y = 8,
+            //     moyenne = (x+y)/2;
+            //     document.write("</br>La partie entière de la moyenne de " + x + " et " + y + " est : " + Math.trunc(moyenne))
+
+            // // 07 
+            // var tab = new Array();
+            // var number = prompt("Donnez un nombre : ");
+            // for (i = 0 ; i < tab.length ; i ++)
+            // {
+            //     if (tab[i] == number) ;
+            // }
+            // const age = 18;
+            //       age = 20;
+            // console.log(age)
+            // let age = 18;
+            //     age = 20;
+            // console.log(age);
+            // let age = 12;
+            // let age = 18;
+            // console.log(age)
+            // var age = 18;
+            // var age = 19;
+            // console.log(age)
+            // function affiche(){
+            //     console.log("Hello");
+            // }
+            // affiche()
+            // let a = () => console.log("Hello");
+            // a()
+            // let division = (x,y) => x/y;
+            // console.log(division(10,5));
+            // var tableau = [3,"5","Mobile"];
+            // for (i of tableau){
+            //     console.log(i)
+            // }
 
         </script>
-
     </body>
 </html>

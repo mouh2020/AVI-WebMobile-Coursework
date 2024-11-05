@@ -20,6 +20,24 @@ class Chat extends AnimalCompagne {
     }
     @Override
     public void parler() {
-        System.out.println("Meow Meao");
+        System.out.println("Meow Meow");
+    }
+    @Override
+    public  void appeler() {
+        super.appeler();
+    }
+}
+
+class Chien extends AnimalCompagne {
+    public Chien(String nom) {
+        super(nom);
+    }
+    @Override
+    public void parler() {
+        System.out.println("Haou Haou");
+    }
+    @Override
+    public  void appeler() {
+        super.appeler();
     }
 }

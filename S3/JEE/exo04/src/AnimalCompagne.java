@@ -10,6 +10,6 @@ public abstract class AnimalCompagne {
     }
     public  abstract void parler();
     public  void appeler(){
-        System.out.println("Nom Animal : "+ getNom());
+        System.out.println("Nom Animal : "+ getNom()) ;
     }
 }
